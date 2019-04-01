@@ -17,7 +17,7 @@ p {
 body {
     margin: 20px;
     padding-bottom:60px;
-    background: white;
+    background: black;
     line-height: 20px;
     font-family: 'Droid Sans',Arial,Verdana,sans-serif;
     font-size: 14px;
@@ -27,7 +27,27 @@ body {
 }
 article {
   background-color: yellow;
+  position: relative;
+  -webkit-animation: mymove 5s 1; /* Safari 4.0 - 8.0 */
+  -webkit-animation-delay: -2s; /* Safari 4.0 - 8.0 */
+  animation: mymove 5s 1;
+  animation-delay: -2s;
 }
 html {
   text-align:center;
+}
+.name {
+  border:1px solid black
+}
+
+@-webkit-keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 200px;}
+
 }
