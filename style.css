@@ -3,6 +3,7 @@ div {
   font-family: Cambria;
   font-size: 42px;
   text-align: center;
+  
 }
 
 p {
@@ -12,4 +13,21 @@ p {
   font-family: Cambria;
   text-align: center;
 
+}
+body {
+    margin: 20px;
+    padding-bottom:60px;
+    background: white;
+    line-height: 20px;
+    font-family: 'Droid Sans',Arial,Verdana,sans-serif;
+    font-size: 14px;
+    color: #828282;
+    display: block;
+    border: 3px solid black;
+}
+article {
+  background-color: yellow;
+}
+html {
+  text-align:center;
 }
